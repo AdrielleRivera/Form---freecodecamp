@@ -7,7 +7,7 @@
 </head>
 <body>
   <h1 class="title" id="title"id="title">freeCodeCamp Survey Form</h1>
-  <p class="decription" id="description">Thank you for taking the time to help us improve the platform!</p>
+  <p class="decription" id="description"><i>Thank you for taking the time to help us improve the platform!</i></p>
   <form id="survey-form">	
  <fieldset> 
     	<label class="label-1" for="name" id="name-label">Name<input class="input-1" id="name" placeholder="John Dela Cruz" required type="text"></label>
@@ -29,7 +29,7 @@
         <label class="label-2" for="Definitely"><input id="Definitely" type="radio" value="100%"  name="account-type" class="inline" checked /> Definitely</label>
         <label class="label-2" for="Maybe"><input id="Maybe" type="radio" value="50%" name="account-type" class="inline" /> Maybe</label>
         <label class="label-2" for="Not-Sure"><input id="Not-Sure" type="radio" value="0%" name="account-type" class="inline" checked /> Not Sure</label>
-        <legend class>What is your favorite feature of freeCodeCamp?</legend>
+        <legend class="p-2">What is your favorite feature of freeCodeCamp?</legend>
 	<label class="label-2" for="options">
           <select id="dropdown" name="referrer">
             <option selected value="">Select an option</option>
@@ -41,39 +41,56 @@
       </label>
  </fieldset>
 <div class="form group">
-     <legend>What would you like to see improved? (Check all that apply)</legend>
-	<label class="label-3">
-        <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox"> Front-end Projects
-	</label>
-	<label class="label-3">
-	<input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox"> Back-end Projects
-	</label>
-	<label class="label-3">
-	<input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox"> Data Visualization
-	</label>
-	<label class="label-3">
-	<input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Challenges
-	</label>
-	<label class="label-3">
-	<input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">Open Source Community
-	</label>
-	<label class="label-3">
-	<input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">Gitter help rooms
-	</label>
-	<label>
-	<input name="prefer" value="videos" type="checkbox" class="input-checkbox">Videos
-	</label>
-	<label class="label-3">
-	<input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">City Meetups
-	</label>
-	<label class="label-3"> 
-	<input name="prefer" value="wiki" type="checkbox" class="input-checkbox">Forum
-	</label>
-	<label class="label-3">
-	<input name="prefer" value="wiki" type="checkbox" class="input-checkbox">Wiki
-	</label>
+     <legend>What would you like to see improved? (Check all that apply)</legend><br>
+	  <label class="3"> 
+  <input type="checkbox" class="input-checkbox">  
+  Front-end Projects 
+   </label><br> 
+     <label class="3"> 
+  <input type="checkbox" class="input-checkbox">  
+  Back-end Projects 
+   </label><br> 
+     <label class="3"> 
+  <input type="checkbox" class="input-checkbox">  
+  Data Visualization 
+   </label><br> 
+     <label class="3"> 
+  <input type="checkbox" class="input-checkbox">  
+ 	Challenges
+   </label><br> 
+     <label class="3"> 
+  <input type="checkbox" class="input-checkbox">  
+  Open Source Community
+   </label><br> 
+     <label class="3"> 
+  <input type="checkbox" class="input-checkbox">  
+  Gitter help rooms
+   </label><br> 
+     <label class="3"> 
+  <input type="checkbox" class="input-checkbox">  
+  Videos
+   </label><br> 
+     <label class="3"> 
+  <input type="checkbox" class="input-checkbox">  
+  City Meetups
+   </label><br> 
+     <label class="3"> 
+  <input type="checkbox" class="input-checkbox">  
+  Wiki
+   </label><br> 
+     <label class="3"> 
+  <input type="checkbox" class="input-checkbox">  
+  Forum
+   </label><br> 
+    <label class="3"> 
+  <input type="checkbox" class="input-checkbox">  
+  Additional Courses
+   </label><br> 
+   <br>
+    
+
 </div>
-	  <label>Any comments or suggestions?<textarea rows="3" cols="30" placeholder="Enter your comments here..."></textarea></label>
+	  <label>Any comments or suggestions?<textarea rows="6" cols="30" placeholder="Enter your comments here..."></textarea></label>
    	<input type="submit" value="submit" id="submit" />
   </form>
 </body>
