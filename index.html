@@ -12,18 +12,28 @@
      <label for="age" id="number-label">Age(optional): <input id="number" placeholder="13" type="number" name="age" min="13" max="120" required /></label>
       <label for="options">Which option best describes your current role?
           <select id="dropdown" name="referrer">
-            <option value="">Select Current Role</option>
+            <option selected value="">Select Current Role</option>
             <option value="1">Student</option>
             <option value="2">Full Time Job</option>
             <option value="3">Full Time Learner</option>
             <option value="4">Prefer Not To Say</option>
             <option value="">Other</option>
           </select>
+      </label>
           <legend>Would you recommend freeCodeCamp to a friend?</legend>
         <label for="Definitely"><input id="Definitely" type="radio" value="100%"  name="account-type" class="inline" checked /> Definitely</label>
         <label for="Maybe"><input id="Maybe" type="radio" value="50%" name="account-type" class="inline" /> Maybe</label>
         <label for="Not-Sure"><input id="Not-Sure" type="radio" value="0%" name="account-type" class="inline" checked /> Not Sure</label>
-
+	<label for="options">What is your favorite feature of freeCodeCamp?
+          <select id="dropdown" name="referrer">
+            <option selected value="">Select an option</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer Not To Say</option>
+            <option value="">Other</option>
+          </select>
+      </label>
   </form>
 </body>
 </html>
