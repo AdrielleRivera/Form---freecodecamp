@@ -9,19 +9,22 @@
   <h1 id="title">freeCodeCamp Survey Form</h1>
   <p id="description">Thank you for taking the time to help us improve the platform!</p>
   <form id="survey-form">
-    <label for="name" id="name-label">Name<input id="name" placeholder="John Dela Cruz" required type="text"></label>
-     <label for="email" id="email-label">Email<input id="email" placeholder="123@gmail.com" name="email" type="email" required /></label>
-     <label for="age" id="number-label">Age(optional): <input id="number" placeholder="13" type="number" name="age" min="13" max="120" required /></label>
-      <label for="options">Which option best describes your current role?
-          <select id="dropdown" name="referrer">
-            <option selected value="">Select Current Role</option>
-            <option value="1">Student</option>
-            <option value="2">Full Time Job</option>
-            <option value="3">Full Time Learner</option>
-            <option value="4">Prefer Not To Say</option>
-            <option value="">Other</option>
-          </select>
+ <fieldset>
+    	<label for="name" id="name-label">Name<input id="name" placeholder="John Dela Cruz" required type="text"></label>
+     	<label for="email" id="email-label">Email<input id="email" placeholder="123@gmail.com" name="email" type="email" required /></label>
+     	<label for="age" id="number-label">Age(optional): <input id="number" placeholder="13" type="number" name="age" min="13" max="120" required /></label>
+     	<label for="options">Which option best describes your current role?
+          	<select id="dropdown" name="referrer">
+            		<option selected value="">Select Current Role</option>
+           		<option value="1">Student</option>
+		        <option value="2">Full Time Job</option>
+            		<option value="3">Full Time Learner</option>
+           	 	<option value="4">Prefer Not To Say</option>
+            		<option value="">Other</option>
+          	</select>
       </label>
+ </fieldset>
+ <fieldset>
           <legend>Would you recommend freeCodeCamp to a friend?</legend>
         <label for="Definitely"><input id="Definitely" type="radio" value="100%"  name="account-type" class="inline" checked /> Definitely</label>
         <label for="Maybe"><input id="Maybe" type="radio" value="50%" name="account-type" class="inline" /> Maybe</label>
@@ -35,6 +38,8 @@
             <option value="4">Open Source</option>
           </select>
       </label>
+ </fieldset>
+<fieldset>
       <label for="checkboxes">What would you like to see improved? (Check all that apply)
         <input id="checkboxes" type="checkbox" required/><label>Front-end projects</label>
 	<input id="checkboxes" type="checkbox" required/><label>Back-end projects</label>
@@ -48,6 +53,7 @@
 	<input id="checkboxes" type="checkbox" required/><label>Wiki</label>
 	<input id="checkboxes" type="checkbox" required/><label>Wiki</label>
       </label>
+</fieldset>
 	  <label>Any comments or suggestions?<textarea rows="3" cols="30" placeholder="Enter your comments here..."></textarea></label>
    	<input type="submit" value="submit" id="submit" />
   </form>
