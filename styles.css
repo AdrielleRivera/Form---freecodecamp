@@ -69,6 +69,10 @@ border: 1px solid #0a0a23;
 color: #ffffff;
 }
 
+textarea{
+  margin-top: 20px;
+}
+
 .input-checkbox{
  display: inline-block;
  margin-bottom: 10px;
@@ -98,4 +102,6 @@ input[type="submit"] {
   border-color: white;
   min-width: 300px;
 }
-
+a{
+  color: turquoise;
+}
