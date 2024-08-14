@@ -103,7 +103,7 @@ input[type="submit"] {
   min-width: 300px;
 }
 input[type="submit"]:hover{
-  background-color: #385170; 
+  background-color: #ff6f3c;  
 }
 a{
   color: turquoise;
