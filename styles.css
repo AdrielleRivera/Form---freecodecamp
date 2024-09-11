@@ -1,64 +1,129 @@
-<!DOCTYPE html>
-<html>
-<head>
-   <meta charset="UTF-8" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-   <link rel="stylesheet" href="./styles.css" />
-   <title>My First Portfolio</title>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body>
-<nav id="navbar" class="nav">
-  <ul class="nav-list">
-    <li><a href="#welcome-section">About</a></li>
-    <li><a href="#projects">Work</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-<section id="welcome-section" class="welcome-section">
-  <h1>Hello! I am Adrielle</h1>
-  <p>Welcome to my Portfolio Page</p>
-</section>
-<section id="projects" class="projects-section">
-  <h2 class="projects-header">These are some of my projects</h2>
-  <div class="projects-grid">
-    <div><a href="https://adriellerivera.github.io/Form---freecodecamp/" target="_blank" class="project project-tile"><img class="images" src="images/Form.jpg"></div></a>
-    <div><a href="https://adriellerivera.github.io/Form---freecodecamp/" target="_blank" class="project project-tile"><img class="images" src="images/Form.jpg"></div></a>
-   <div><a href="https://adriellerivera.github.io/Form---freecodecamp/" target="_blank" class="project project-tile"><img class="images" src="images/Form.jpg"></div></a>
-    <div><a href="https://adriellerivera.github.io/Form---freecodecamp/" target="_blank" class="project project-tile"><img class="images" src="images/Form.jpg"></div></a>
-    <div><a href="https://adriellerivera.github.io/Form---freecodecamp/" target="_blank" class="project project-tile"><img class="images" src="images/Form.jpg"></div></a>
-    <div><a href="https://adriellerivera.github.io/Form---freecodecamp/" target="_blank" class="project project-tile"><img class="images" src="images/Form.jpg"></div></a>
-    
-    <!-- Other project tiles -->
-  </div>
-  <a href="https://github.com/AdrielleRivera" class="btn btn-show-all" target="_blank">Show all<i class="fas fa-chevron-right"></i></a>
-</section>
-<section id="contact" class="contact-section">
-  <div class="contact-header">
-    <h2>Looking forward to collaborate with you! Lez Go!</h2>
-    <p>I am happy that you are here!</p>
-  </div>
-  <div class="contact-links">
-    <a href="https://web.facebook.com/adrielleriveraaa" target="_blank" class="btn contact-details">
-      <i class="fab fa-facebook-square"></i> Facebook
-    </a>
-    <a id="profile-link" href="https://github.com/AdrielleRivera" target="_blank" class="btn contact-details">
-      <i class="fab fa-github"></i> GitHub
-    </a>
-    <a id="profile-link" href="https://www.linkedin.com/in/adrielle-rivera-355ab3290/" target="_blank" class="btn contact-details">
-      <i class="fab fa-linkedin"></i> LinkedIn
-    </a>
-    <a href="mailto:example@example.com" class="btn contact-details">
-      <i class="fas fa-at"></i> Send a mail
-    </a>
-    <a href="tel:1234567890" class="btn contact-details">
-      <i class="fas fa-mobile-alt"></i> Call me
-    </a>
-  </div>
-</section>
-<footer>
-  <p>Sample Portfolio for Adrielle Rivera</p>
-  <p>© Created by: <a href="https://www.linkedin.com/in/adrielle-rivera-355ab3290/" target="_blank">Adrielle Rivera</a></p>
-</footer>
-</body>
-</html>
+body {
+  width: 100%;
+  height: 50vh;
+  margin: 0;
+  background-color: #385170;
+  background: url("images/nb.jpg") repeat center;
+  color: black;
+  font-family: Tahoma;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+  color:white;
+
+}
+
+.title {
+  font-size: 35px;
+}
+
+.description {
+  font-size: 25px;
+}
+
+.p-1 {
+  margin-bottom: -30px;
+}
+
+form {
+  padding: 30px;
+  background: #9fd3c7;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+  color: black; /* Ensure form text color is black */
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  color: black; /* Ensure fieldset text color is black */
+}
+
+.label-1 {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.label-2 {
+  display: block;
+  margin: 1rem 0;
+  padding: 5px;
+}
+
+.options {
+  margin-bottom: 10px;
+}
+
+.label-3 {
+  vertical-align: middle; 
+  position: relative; 
+  bottom: 1px; 
+}
+
+.input-1, .input-2, textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+select {
+  margin-bottom: -10px;
+}
+
+input, textarea {
+  border: 1px solid #0a0a23;
+  color: black; /* Ensure input and textarea text color is black */
+}
+
+textarea {
+  margin-top: 20px;
+}
+
+.input-checkbox {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] { 
+  margin-right: 0.625rem;
+  min-height: 1rem;
+  min-width: 1.25rem;
+} 
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: blue;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="submit"]:hover {
+  background: #ff6f3c;  
+}
+
+footer {
+  margin: 2em;
+}
+
+a {
+  color: turquoise;
+}
+
+a:hover {
+  color: #ff6f3c; 
+}
